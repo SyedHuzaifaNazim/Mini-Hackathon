@@ -1,6 +1,6 @@
 import Image from "next/image";
-import SignIn from "./signin/page";
-import SignUp from "./signup/page";
+import SignIn from "./pages/signin/page";
+import SignUp from "./pages/signup/page";
 import {email,password} from "firebase/auth"
 import { auth } from "../app/firebase/firebaseConfig";
 

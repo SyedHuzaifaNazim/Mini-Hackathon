@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { auth } from '../utils/firebase';
+import { auth } from '../firebase/firebaseConfig';
 
 const Header = () => {
   const router = useRouter();

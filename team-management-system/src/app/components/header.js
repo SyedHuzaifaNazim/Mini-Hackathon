@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Login from '../pages/login';
 
 const LandingPage = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -54,6 +55,11 @@ const LandingPage = () => {
                 </a>
               </li>
               <li className="mb-2">
+                <a  className="block hover:text-indigo-400">
+                  Login
+                </a>
+              </li>
+              <li className="mb-2">
                 <a href="#" className="block hover:text-indigo-400">
                   Contact
                 </a>
@@ -62,13 +68,11 @@ const LandingPage = () => {
           </div>
         </div>
 
-        {/* Content */}
         <div className="flex-1 flex flex-col overflow-hidden">
-          {/* Navbar */}
           <div className="bg-white shadow">
             <div className="container mx-auto">
               <div className="flex justify-between items-center py-4 px-2">
-                <h1 className="text-xl font-semibold">Animated Drawer</h1>
+                <h1 className="text-xl font-semibold">Team Management System</h1>
 
                 <button
                   className="text-gray-500 hover:text-gray-600"
@@ -94,10 +98,9 @@ const LandingPage = () => {
             </div>
           </div>
 
-          {/* Content Body */}
           <div className="flex-1 overflow-auto p-4">
-            <h1 className="text-2xl font-semibold">Welcome to our website</h1>
-            <p>... Content goes here ...</p>
+            <h1 className="text-2xl font-semibold">Welcome to Team Management System</h1>
+            <p>Team Management System is a web application designed to streamline the organization and management of teams. Built with modern technologies like Next.js, it allows users to efficiently manage different teams across various departments, track their activities, and ensure smooth collaboration. With intuitive interfaces and a responsive design, users can effortlessly add members, assign tasks, monitor progress, and enhance productivity. Whether it’s for development, design, or other team functionalities, this system provides a unified platform for team management, making it easier to oversee projects and foster teamwork.</p>
           </div>
         </div>
       </div>

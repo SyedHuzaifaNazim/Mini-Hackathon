@@ -1,5 +1,4 @@
 import React from 'react'
-import login from '../pages/login'
 
 const Dashboard = () => {
         const teams = {
@@ -141,26 +140,7 @@ const Dashboard = () => {
         <div className="p-4">
           <h1 className="text-5xl font-bold">Welcome to Team Management System</h1>
           <p className="mt-6 text-gray-600">Raising tomorrow's leaders.</p>
-          <div className="flex space-x-4" >
-
-            
-          {/* <button onClick={SignUp} className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg">Sign Up</button>
-          <button onClick={SignIn} className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2 px-4 rounded-lg">Sign In</button>
-          */}
-          </div>
-          {/* <div class="flex flex-row h-64 mt-6">
-        <div class="bg-white rounded-xl shadow-lg px-6 py-4 w-4/12">
-          Development
-        </div>
-        <div class="bg-white rounded-xl shadow-lg mx-6 px-6 py-4 w-4/12">
-          UI Design
-        </div>
-        <div class="bg-white rounded-xl shadow-lg px-6 py-4 w-4/12">
-          af
-        </div>
-      </div> */}
        <div className="flex flex-row h-64 mt-6">
-              {/* Development Teams */}
               <div className="bg-white rounded-xl shadow-lg p-4 w-6/12">
                 <h2 className="text-xl font-bold">Development Teams</h2>
                 {teams.development.map((team) => (
@@ -170,7 +150,6 @@ const Dashboard = () => {
                 ))}
               </div>
 
-              {/* Design Teams */}
               <div className="bg-white rounded-xl shadow-lg mx-6 p-4 w-6/12">
                 <h2 className="text-xl font-bold">Design Teams</h2>
                 {teams.design.map((team) => (

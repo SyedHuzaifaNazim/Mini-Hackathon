@@ -139,7 +139,7 @@ const Dashboard = () => {
         </div>
         <div className="p-4">
           <h1 className="text-5xl font-bold">Welcome to Team Management System</h1>
-          <p className="mt-6 text-gray-600">Raising tomorrow's leaders.</p>
+          <p className="mt-6 text-gray-600">Raising tomorrows leaders.</p>
        <div className="flex flex-row h-64 mt-6">
               <div className="bg-white rounded-xl shadow-lg p-4 w-6/12">
                 <h2 className="text-xl font-bold">Development Teams</h2>

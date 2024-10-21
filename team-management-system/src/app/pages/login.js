@@ -139,7 +139,6 @@ export default function Login() {
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   className="w-full mt-1 p-2 border rounded-md focus:ring-blue-500 focus:border-blue-500"
-                  required
                 />
               </div>
               <div>

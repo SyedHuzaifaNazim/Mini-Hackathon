@@ -79,7 +79,7 @@ export default function Login() {
   return (
     <>
     <div className='p-4'>
-        <h1 className='text-5xl font-bold align-items'>Team Management System</h1>
+        <h1 className='text-5xl font-bold align-items text-center'>Team Management System</h1>
     </div>
     <div className="flex h-screen items-center justify-center bg-gray-100">
       <div className="bg-white shadow-md rounded-lg p-8 max-w-md w-full">

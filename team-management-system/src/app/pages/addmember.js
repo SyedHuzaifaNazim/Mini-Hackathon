@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-const addmember = () => {
+const Addmember = () => {
   const [largeInput, setLargeInput] = useState('');
   const [baseInput, setBaseInput] = useState('');
   const [smallInput, setSmallInput] = useState('');
@@ -49,4 +49,4 @@ const addmember = () => {
   );
 };
 
-export default addmember;
+export default Addmember;

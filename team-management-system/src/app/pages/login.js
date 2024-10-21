@@ -34,7 +34,6 @@ export default function Login() {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
 
-      // Save user data to Firestore
       await setDoc(doc(db, 'users', user.uid), {
         email: user.email,
         username: username,

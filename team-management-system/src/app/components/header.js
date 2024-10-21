@@ -28,7 +28,6 @@ const LandingPage = () => {
   return (
     <div className="bg-gray-100">
       <div className="h-screen flex overflow-hidden bg-gray-200">
-        {/* Sidebar */}
         <div
           id="sidebar"
           className={`absolute bg-gray-800 text-white w-56 min-h-screen overflow-y-auto transition-transform transform ${

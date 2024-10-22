@@ -1,4 +1,7 @@
 import React from 'react'
+import Footer from '../components/footer';
+import addmember from "../pages/addmember";
+import Link from 'next/link';
 
 const Dashboard = () => {
         const teams = {
@@ -24,7 +27,7 @@ const Dashboard = () => {
         </div>
         <div className="flex flex-col flex-1 overflow-y-auto">
           <nav className="flex-1 px-2 py-4 bg-gray-800">
-            <a href="#" className="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700">
+            <Link href="/addmember" className="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mr-2"
@@ -39,7 +42,7 @@ const Dashboard = () => {
                 />
               </svg>
               Add Members
-            </a>
+            </Link>
             <a href="#" className="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +141,7 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="p-4">
-          <h1 className="text-5xl font-bold">Welcome to Team Management System</h1>
+
           <p className="mt-6 text-gray-600">Raising tomorrows leaders.</p>
        <div className="flex flex-row h-64 mt-6">
               <div className="bg-white rounded-xl shadow-lg p-4 w-6/12">
@@ -162,6 +165,7 @@ const Dashboard = () => {
           </div>
           </div>
         </div>
+        <Footer/>
     </>
   )
 }

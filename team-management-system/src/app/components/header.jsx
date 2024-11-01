@@ -106,20 +106,52 @@ const LandingPage = () => {
           <div className="flex-1 overflow-auto p-4">
             <h1 className="text-5xl font-bold flex justify-center gap-4">Welcome to Team Management System</h1>
             <br/>
-            <p className='text-2xl'>Team Management System is a web application designed to streamline the organization and management of teams. Built with modern technologies like Next.js, it allows users to efficiently manage different teams across various departments, track their activities, and ensure smooth collaboration. With intuitive interfaces and a responsive design, users can effortlessly add members, assign tasks, monitor progress, and enhance productivity. Whether it’s for development, design, or other team functionalities, this system provides a unified platform for team management, making it easier to oversee projects and foster teamwork.</p>
-            <br/>
-            <div className="flex justify-center gap-4">
+            {/* <p className='text-2xl'>Team Management System is a web application designed to streamline the organization and management of teams. Built with modern technologies like Next.js, it allows users to efficiently manage different teams across various departments, track their activities, and ensure smooth collaboration. With intuitive interfaces and a responsive design, users can effortlessly add members, assign tasks, monitor progress, and enhance productivity. Whether it’s for development, design, or other team functionalities, this system provides a unified platform for team management, making it easier to oversee projects and foster teamwork.</p> */}
+            {/* <br/> */}
+            {/* <div className="flex justify-center gap-4">
               <button onClick={Login} className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-8 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                 Get Started
               </button>
               <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#1e3a8a,45%,#3b82f6,55%,#1e3a8a)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                 Create Account
               </button>
+            </div> */}
+               <section>
+      <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+        <div className="flex w-full mx-auto text-left">
+          <div className="relative inline-flex items-center mx-auto align-middle">
+            <div className="text-center">
+              <h1 className="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
+                We make team work <br className="hidden lg:block" />
+                better for our users ...
+              </h1>
+              <p className="max-w-xl mx-auto mt-8 text-base leading-relaxed text-gray-500">
+                From here you can create tasks as a leader &amp; check tasks as a member ...
+              </p>
+              <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
+                <div className="mt-3 rounded-lg sm:mt-0">
+                  <button className="px-5 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                    Get Started
+                  </button>
+                </div>
+                <div className="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+                  <button className="items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                    Create Account
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+          </div>
+        </div>
+      </div>
     </div>
+
+
+   
     <Footer/>
     </>
   );

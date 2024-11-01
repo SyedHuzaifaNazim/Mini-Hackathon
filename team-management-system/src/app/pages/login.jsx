@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { auth, db } from '../lib/firebaseConfig';
 import { setDoc, doc } from 'firebase/firestore'; 
+import Footer from '../components/footer';
 
 export default function Login() {
   const [isLogin, setIsLogin] = useState(true);
@@ -169,6 +170,7 @@ export default function Login() {
         )}
       </div>
     </div>
+    <div><Footer/></div>
     </>
   );
 }

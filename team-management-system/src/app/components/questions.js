@@ -148,7 +148,7 @@ const TeamTypeQuestions = () => {
       />
     </div>
 
-    <div className="mb-6">
+    {/* <div className="mb-6">
       <label
         htmlFor="password"
         className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
@@ -162,9 +162,9 @@ const TeamTypeQuestions = () => {
         placeholder="•••••••••"
         required
       />
-    </div>
+    </div> */}
 
-    <div className="mb-6">
+    {/* <div className="mb-6">
       <label
         htmlFor="confirm_password"
         className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
@@ -178,7 +178,7 @@ const TeamTypeQuestions = () => {
         placeholder="•••••••••"
         required
       />
-    </div>
+    </div> */}
 
     <div className="flex items-start mb-6">
       <div className="flex items-center h-5">
@@ -191,7 +191,7 @@ const TeamTypeQuestions = () => {
       </div>
       <label
         htmlFor="remember"
-        className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+        className="ms-2 text-sm font-medium text-gray-900 dark:text-gray"
       >
         I agree with the{' '}
         <a
